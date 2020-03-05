@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fỉeqsē</title>
+  </head>
+  <body>
+    <ul>
+      {% for page in site.pages %}
+        {% if page.chua %}
+          <li><a href="/fieqse{{ page.url }}">{{ page.chua }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </body>
+</html>

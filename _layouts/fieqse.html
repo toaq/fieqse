@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.chua }}</title>
+  </head>
+  <body>
+    <center>
+      <h1>{{ page.chua }}</h1>
+      <hr />
+      <i>la fíeq pa <b>{{ page.fieq }}</b></i><br />
+      {% if page.siao %}
+        <i>la síao bı {{ page.siao }}</i><br />
+      {% endif %}
+      {% for r in page.raq %}
+        <a href="{{ r }}">raq</a>
+      {% endfor %}
+    </center>
+    <hr />
+    {{ content }}
+  </body>
+</html>
