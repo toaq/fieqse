@@ -4,5 +4,3 @@ defaults:
       path: ""
     values:
       layout: "fieqse"
-
-theme: jekyll-theme-minimal
